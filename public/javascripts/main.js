@@ -67,8 +67,8 @@ tabs.forEach((tab) => {
   });
 });
 
-/*==================== PORTFOLIO SWIPER  ====================*/
-let swiper = new Swiper(".portfolio__container", {
+/*==================== projects SWIPER  ====================*/
+let swiper = new Swiper(".projects__container", {
   cssMode: true,
   loop: true,
 

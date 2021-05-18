@@ -3,26 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!--==================== UNICONS ====================-->
     <link
       rel="stylesheet"
       href="https://unicons.iconscout.com/release/v3.0.6/css/line.css"
     />
-    <!--==================== SWIPER CSS ====================-->
     <link rel="stylesheet" href="stylesheets/swiper-bundle.min.css" />
-
-    <!--==================== CSS ====================-->
     <link rel="stylesheet" href="stylesheets/style.css" />
-
-    <title>Responsive Portfolio Website</title>
+    <title>ReyesEdwin</title>
+    <link rel="icon" href="img/Browser-icon-192x192.png" />
   </head>
-
   <body>
     <!--==================== HEADER ====================-->
     <header class="header" id="header">
       <nav class="nav container">
-        <a href="#" class="nav__logo">Edwin</a>
+        <a href="#home" class="nav__logo">Edwin</a>
 
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list grid">
@@ -42,8 +36,8 @@
               </a>
             </li>
             <li class="nav__item">
-              <a href="#portfolio" class="nav__link">
-                <i class="uil uil-scenery nav__icon"></i> Portfolio
+              <a href="#projects" class="nav__link">
+                <i class="uil uil-scenery nav__icon"></i> Projects
               </a>
             </li>
             <li class="nav__item">
@@ -65,7 +59,6 @@
         </div>
       </nav>
     </header>
-
     <!--==================== MAIN ====================-->
     <main class="main">
       <!--==================== HOME ====================-->
@@ -73,13 +66,25 @@
         <div class="home__container container grid">
           <div class="home__content grid">
             <div class="home__social">
-              <a href="#" class="home__social-icon">
+              <a
+                href="https://www.linkedin.com/in/edwin-reyes-rodriguez/"
+                class="home__social-icon"
+                target="_blank"
+              >
                 <i class="uil uil-linkedin"></i>
               </a>
-              <a href="#" class="home__social-icon">
+              <a
+                href="https://github.com/reyes-edwin"
+                class="home__social-icon"
+                target="_blank"
+              >
                 <i class="uil uil-github"></i>
               </a>
-              <a href="#" class="home__social-icon">
+              <a
+                href="https://twitter.com/3dwinReyes"
+                class="home__social-icon"
+                target="_blank"
+              >
                 <i class="uil uil-twitter"></i>
               </a>
             </div>
@@ -87,30 +92,22 @@
             <div class="home__img">
               <svg
                 class="home__blob"
-                viewBox="0 0 200 187"
+                viewBox="0 0 200 200"
                 xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
               >
                 <mask id="mask0" mask-type="alpha">
                   <path
-                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
-                  130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
-                  97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
-                  0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                    fill="#FF0066"
+                    d="M43.3,-65.8C56.6,-58.9,68,-47.6,76.6,-33.6C85.2,-19.5,91,-2.8,87.6,11.7C84.2,26.3,71.5,38.7,60.1,52.3C48.6,66,38.4,80.9,24,87.9C9.6,94.9,-8.9,94.1,-23.2,86.4C-37.5,78.8,-47.6,64.4,-59.1,51.2C-70.7,37.9,-83.8,25.9,-86.6,11.9C-89.5,-2.1,-82.2,-18.2,-73.5,-32C-64.7,-45.9,-54.6,-57.6,-42.1,-64.8C-29.7,-72,-14.8,-74.7,0.1,-74.9C15.1,-75,30.1,-72.7,43.3,-65.8Z"
+                    transform="translate(100 100)"
                   />
                 </mask>
                 <g mask="url(#mask0)">
-                  <path
-                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
-                  165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
-                  129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
-                  -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
-                  />
                   <!-- Image of me -->
                   <image
                     class="home__blob-img"
                     x="0"
-                    y="-20"
+                    y="-8"
                     xlink:href="img/profile.jpg"
                   />
                 </g>
@@ -119,13 +116,13 @@
 
             <div class="home__data">
               <h1 class="home__title">Hey, I'm Edwin.</h1>
-              <h3 class="home__subtitle">UX/UI Designer</h3>
+              <h3 class="home__subtitle">I’m interested in UX/UI design.</h3>
               <p class="home__description">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Distinctio, dolorem!
+                I’m currently learning Java, and the fundamentals of
+                Human-Centered Design and Development.
               </p>
-              <a href="#contact" class="button button--flex">
-                Contact Me <i class="uil uil-message button__icon"></i>
+              <a href="#projects" class="button button--flex">
+                My Projects <i class="uil uil-arrow-down button__icon"></i>
               </a>
             </div>
           </div>
@@ -134,33 +131,42 @@
       <!--==================== ABOUT ====================-->
       <section class="about section" id="about">
         <h2 class="section__title">About Me</h2>
-        <span class="section__subtitle">My introduction</span>
+        <span class="section__subtitle"
+          >Find out who I am, where I'm from and what I'm all about.</span
+        >
 
         <div class="about__container container grid">
           <img src="img/about.jpg" alt="" class="about__img" />
 
           <div class="about__data">
-            <p class="about__description">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque,
-              exercitationem?
+            <p class="about__description1">
+              My name is Edwin Reyes. I'm a Junior at Penn State University, in
+              State College, PA.
+            </p>
+            <p class="about__description2">
+              I enjoy generating new ideas, designing user interfaces/web
+              designs, and learning UX fundamentals.
+            </p>
+            <p class="about__description3">
+              Currently, I'm an intern at PwC for the summer of 2021.
             </p>
             <div class="about__info">
               <div>
-                <span class="about__info-title">08+</span>
+                <span class="about__info-title">2+</span>
                 <span class="about__info-name"
                   >Years <br />
                   experience</span
                 >
               </div>
               <div>
-                <span class="about__info-title">20+</span>
+                <span class="about__info-title">3+</span>
                 <span class="about__info-name"
                   >completed <br />
                   projects</span
                 >
               </div>
               <div>
-                <span class="about__info-title">05+</span>
+                <span class="about__info-title">01+</span>
                 <span class="about__info-name"
                   >Companies <br />
                   worked</span
@@ -170,8 +176,12 @@
 
             <div class="about__buttons">
               <!-- insert pdf -->
-              <a download="" href="#" class="button button--flex">
-                Download CV<i class="uil uil-download-alt button__icon"></i>
+              <a
+                download=""
+                href="pdf/EdwinReyes-Cv.pdf"
+                class="button button--flex"
+              >
+                Download Resume<i class="uil uil-download-alt button__icon"></i>
               </a>
             </div>
           </div>
@@ -511,64 +521,64 @@
         </div>
       </section>
 
-      <!--==================== PORTFOLIO ====================-->
-      <section class="portfolio section" id="portfolio">
-        <h2 class="section__title">Portfolio</h2>
+      <!--==================== projects ====================-->
+      <section class="projects section" id="projects">
+        <h2 class="section__title">Projects</h2>
         <span class="section__subtitle">Most recent work</span>
 
-        <div class="portfolio__container container swiper-container">
+        <div class="projects__container container swiper-container">
           <div class="swiper-wrapper">
-            <!--==================== PORTFOLIO 1 ====================-->
-            <div class="portfolio__content grid swiper-slide">
-              <img src="img/portfolio1.jpg" alt="" class="portfolio__img" />
+            <!--==================== projects 1 ====================-->
+            <div class="projects__content grid swiper-slide">
+              <img src="img/project1.jpg" alt="" class="projects__img" />
 
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">Modern Website</h3>
-                <p class="portfolio__description">
+              <div class="projects__data">
+                <h3 class="projects__title">Modern Website</h3>
+                <p class="projects__description">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Deleniti, beatae.
                 </p>
                 <a
                   href="#"
-                  class="button button--flex button--small portfolio__button"
+                  class="button button--flex button--small projects__button"
                 >
                   Demo
                   <i class="uil uil-arrow-right button__icon"></i>
                 </a>
               </div>
             </div>
-            <!--==================== PORTFOLIO 2 ====================-->
-            <div class="portfolio__content grid swiper-slide">
-              <img src="img/portfolio2.jpg" alt="" class="portfolio__img" />
+            <!--==================== projects 2 ====================-->
+            <div class="projects__content grid swiper-slide">
+              <img src="img/project2.jpg" alt="" class="projects__img" />
 
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">Brand Design</h3>
-                <p class="portfolio__description">
+              <div class="projects__data">
+                <h3 class="projects__title">Brand Design</h3>
+                <p class="projects__description">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Deleniti, beatae.
                 </p>
                 <a
                   href="#"
-                  class="button button--flex button--small portfolio__button"
+                  class="button button--flex button--small projects__button"
                 >
                   Demo
                   <i class="uil uil-arrow-right button__icon"></i>
                 </a>
               </div>
             </div>
-            <!--==================== PORTFOLIO 3 ====================-->
-            <div class="portfolio__content grid swiper-slide">
-              <img src="img/portfolio3.jpg" alt="" class="portfolio__img" />
+            <!--==================== projects 3 ====================-->
+            <div class="projects__content grid swiper-slide">
+              <img src="img/project3.jpg" alt="" class="projects__img" />
 
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">Online Store</h3>
-                <p class="portfolio__description">
+              <div class="projects__data">
+                <h3 class="projects__title">Online Store</h3>
+                <p class="projects__description">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Deleniti, beatae.
                 </p>
                 <a
                   href="#"
-                  class="button button--flex button--small portfolio__button"
+                  class="button button--flex button--small projects__button"
                 >
                   Demo
                   <i class="uil uil-arrow-right button__icon"></i>
@@ -579,10 +589,10 @@
 
           <!-- Add Arrows -->
           <div class="swiper-button-next">
-            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+            <i class="uil uil-angle-right-b swiper-projects-icon"></i>
           </div>
           <div class="swiper-button-prev">
-            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+            <i class="uil uil-angle-left-b swiper-projects-icon"></i>
           </div>
 
           <!-- Add Pagination -->
@@ -621,7 +631,7 @@
             <div>
               <a href="#" class="button button--flex">
                 Send Message
-                <i class="uil uil-message button__icon "></i>
+                <i class="uil uil-message button__icon"></i>
               </a>
             </div>
           </form>
@@ -640,7 +650,7 @@
 
           <ul class="footer__links">
             <li><a href="#about" class="footer__link">About</a></li>
-            <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
+            <li><a href="#projects" class="footer__link">projects</a></li>
             <li><a href="#contact" class="footer__link">Contact</a></li>
           </ul>
 

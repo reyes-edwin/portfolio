@@ -293,7 +293,7 @@ img {
 }
 
 .home__blob {
-  width: 200px;
+  width: 250px;
   fill: var(--first-color);
 }
 
@@ -350,11 +350,17 @@ img {
   width: 200px;
   border-radius: 0.5rem;
   justify-self: center;
-  align-self: center;
 }
 
-.about__description {
-  text-align: center;
+.about__description1 {
+  margin-bottom: var(--mb-2-5);
+}
+
+.about__description2 {
+  margin-bottom: var(--mb-2-5);
+}
+
+.about__description3 {
   margin-bottom: var(--mb-2-5);
 }
 
@@ -569,31 +575,31 @@ img {
   color: var(--first-color);
 }
 
-/*==================== PORTFOLIO ====================*/
-.portfolio__container {
+/*==================== projects ====================*/
+.projects__container {
   overflow: initial;
 }
 
-.portfolio__content {
+.projects__content {
   padding: 0 1.5rem;
 }
 
-.portfolio__img {
+.projects__img {
   width: 265px;
   border-radius: 0.5rem;
   justify-self: center;
 }
 
-.portfolio__title {
+.projects__title {
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-0-5);
 }
 
-.portfolio__description {
+.projects__description {
   margin-bottom: var(--mb-0-75);
 }
 
-.portfolio__button:hover .button__icon {
+.projects__button:hover .button__icon {
   transform: translateX(0.25rem);
 }
 
@@ -602,7 +608,7 @@ img {
   content: "";
 }
 
-.swiper-portfolio-icon {
+.swiper-projects-icon {
   font-size: 2rem;
   color: var(--first-color);
 }
@@ -813,7 +819,7 @@ textarea {
 
   .about__container,
   .skills__container,
-  .portfolio__content,
+  .projects__content,
   .footer__container {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -888,10 +894,10 @@ textarea {
   }
 
   h1.home__title {
-    font-size: 45px;
+    font-size: 44px;
   }
   .home__blob {
-    width: 270px;
+    width: 320px;
   }
   .home__blob-img {
     width: 200px;
@@ -929,11 +935,11 @@ textarea {
     grid-template-columns: 0.5fr;
   }
 
-  .portfolio__img {
+  .projects__img {
     width: 320px;
   }
 
-  .portfolio__content {
+  .projects__content {
     align-items: center;
   }
 
@@ -967,11 +973,11 @@ textarea {
   }
 
   h1.home__title {
-    font-size: 45px;
+    font-size: 44px;
   }
 
   .home__blob {
-    width: 320px;
+    width: 350px;
   }
   .home__blob-img {
     width: 200px;
@@ -981,11 +987,11 @@ textarea {
     transform: translateX(-6rem);
   }
 
-  .portfolio__content {
+  .projects__content {
     column-gap: 5rem;
   }
 
-  .swiper-portfolio-icon {
+  .swiper-projects-icon {
     font-size: 3.5rem;
   }
 
