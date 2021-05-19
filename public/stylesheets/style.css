@@ -908,7 +908,7 @@ textarea {
   }
 
   .about__img {
-    width: 350px;
+    width: 300px;
   }
 
   .about__description {
@@ -985,6 +985,11 @@ textarea {
 
   .home__social {
     transform: translateX(-6rem);
+  }
+
+  .about__buttons {
+      display: flex;
+      justify-content: center;
   }
 
   .projects__content {
