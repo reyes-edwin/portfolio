@@ -827,7 +827,6 @@ textarea {
 
  .nav__list {
     display: flex;
-    flex-flow: row wrap;
     gap: 2rem;
   }
 
