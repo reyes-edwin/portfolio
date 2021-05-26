@@ -825,9 +825,9 @@ textarea {
     display: none;
   }
 
-  .nav__list {
+ #nav__list {
     display: flex;
-    gap: 2rem;
+    justify-content: space-evenly;
   }
 
   .nav__menu {
