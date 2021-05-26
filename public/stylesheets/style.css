@@ -292,8 +292,9 @@ img {
   color: var(--first-color-alt);
 }
 
+
 img.home__blob {
-  width: 300px;
+width: 300px;
 }
 
 .home__data {
@@ -433,9 +434,9 @@ img.home__blob {
 
 .skills__name {
   font-size: var(--small-font-size);
-  font-weight: var(--font-medium);
-  padding: 0.25rem 0.5rem;
-  border-radius: 0.25rem;
+  font-weight: var(--font-medium);;
+  padding: .25rem .5rem;
+  border-radius: .25rem;
   background-color: var(--first-color);
 }
 
@@ -773,8 +774,7 @@ textarea {
 
   .about__container,
   .skills__container,
-  .projects__content,
-  .footer__container {
+  .projects__content {
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -816,7 +816,7 @@ textarea {
 
   .nav {
     height: calc(var(--header-height) + 1.5rem);
-    column-gap: 1rem;
+    gap:  1rem;
   }
 
   .nav__icon,
@@ -827,7 +827,7 @@ textarea {
 
   .nav__list {
     display: flex;
-    column-gap: 2rem;
+    gap: 2rem;
   }
 
   .nav__menu {
@@ -850,6 +850,7 @@ textarea {
   h1.home__title {
     font-size: 44px;
   }
+  
 
   .about__container {
     column-gap: 5rem;
@@ -901,7 +902,7 @@ textarea {
 
   .footer__links {
     flex-direction: row;
-    column-gap: 2rem;
+    justify-content: space-evenly;
   }
 
   .footer__socials {
@@ -936,56 +937,8 @@ textarea {
   }
 
   .about__buttons {
-    display: flex;
-    justify-content: center;
-  }
-
-  .projects__content {
-    column-gap: 5rem;
-  }
-
-  .swiper-projects-icon {
-    font-size: 3.5rem;
-  }
-
-  .swiper-button-prev {
-    left: -3.5rem;
-  }
-
-  .swiper-button-next {
-    right: -3.5rem;
-  }
-
-  .swiper-container-horizontal > .swiper-pagination-bullets {
-    bottom: -4.5rem;
-  }
-}
-
-@media only screen and (min-width: 820px) and (max-width: 1180px) {
-  .header,
-  .main,
-  .footer__container {
-    padding: 0;
-  }
-
-  h1.home__title {
-    font-size: 44px;
-  }
-
-  .home__blob {
-    width: 350px;
-  }
-  .home__blob-img {
-    width: 200px;
-  }
-
-  .home__social {
-    transform: translateX(-6rem);
-  }
-
-  .about__buttons {
-    display: flex;
-    justify-content: center;
+      display: flex;
+      justify-content: center;
   }
 
   .projects__content {
