@@ -915,7 +915,7 @@ textarea {
   }
 }
 /* For large devices */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width:2360px) {
   .header,
   .main,
   .footer__container {
@@ -961,4 +961,6 @@ textarea {
   .swiper-container-horizontal > .swiper-pagination-bullets {
     bottom: -4.5rem;
   }
+
+
 }
