@@ -292,13 +292,9 @@ img {
   color: var(--first-color-alt);
 }
 
-.home__blob {
-  width: 250px;
-  fill: var(--first-color);
-}
 
-.home__blob-img {
-  width: 200px;
+img.home__blob {
+width: 280px;
 }
 
 .home__data {
@@ -855,12 +851,7 @@ textarea {
   h1.home__title {
     font-size: 44px;
   }
-  .home__blob {
-    width: 320px;
-  }
-  .home__blob-img {
-    width: 200px;
-  }
+  
 
   .about__container {
     column-gap: 5rem;
