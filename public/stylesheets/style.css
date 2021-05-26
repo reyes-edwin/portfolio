@@ -816,7 +816,7 @@ textarea {
 
   .nav {
     height: calc(var(--header-height) + 1.5rem);
-    gap:  1rem;
+    gap: 2rem;
   }
 
   .nav__icon,
@@ -825,9 +825,10 @@ textarea {
     display: none;
   }
 
- #nav__list {
+ .nav__list {
     display: flex;
-    justify-content: space-evenly;
+    flex-flow: row wrap;
+    gap: 2rem;
   }
 
   .nav__menu {
