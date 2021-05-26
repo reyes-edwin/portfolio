@@ -902,7 +902,7 @@ textarea {
 
   .footer__links {
     flex-direction: row;
-    justify-content: space-evenly;
+    gap: 2rem;
   }
 
   .footer__socials {
