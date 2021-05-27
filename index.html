@@ -9,7 +9,11 @@
     />
     <link rel="stylesheet" href="public/stylesheets/swiper-bundle.min.css" />
     <link rel="stylesheet" href="public/stylesheets/style.css" />
-    <link rel="icon" href="public/img/Browser-icon-192x192.png" sizes="192x192" />
+    <link
+      rel="icon"
+      href="public/img/Browser-icon-192x192.png"
+      sizes="192x192"
+    />
     <title>ReyesEdwin</title>
   </head>
 
@@ -91,7 +95,7 @@
             </div>
 
             <div class="home__img">
-              <img src="public/img/profile.png" alt="" class="home__blob">
+              <img src="public/img/profile.png" alt="" class="home__blob" />
             </div>
 
             <div class="home__data">
@@ -235,7 +239,7 @@
                 </div>
                 <div class="skills__data">
                   <div class="skills__titles">
-                    <h3 class="skills__name">Sketch</h3>
+                    <h3 class="skills__name">Adobe XD</h3>
                   </div>
                 </div>
               </div>
@@ -407,7 +411,7 @@
             <!--==================== projects 1 ====================-->
             <div class="projects__content grid swiper-slide">
               <img
-                src="public/img/pexels-photo-196645.jpeg"
+                src="public/img/Project2.jpeg"
                 alt=""
                 class="projects__img"
               />
@@ -431,7 +435,7 @@
             </div>
             <!--==================== projects 2 ====================-->
             <div class="projects__content grid swiper-slide">
-              <img src="public/img/Group 1.png" alt="" class="projects__img" />
+              <img src="public/img/Project1.png" alt="" class="projects__img" />
 
               <div class="projects__data">
                 <h3 class="projects__title">Weather Application</h3>
@@ -452,7 +456,11 @@
             </div>
             <!--==================== projects 3 ====================-->
             <div class="projects__content grid swiper-slide">
-              <img src="public/img/Project 3.png" alt="" class="projects__img" />
+              <img
+                src="public/img/Project 3.png"
+                alt=""
+                class="projects__img"
+              />
 
               <div class="projects__data">
                 <h3 class="projects__title">A Redesigned To Clinique</h3>
@@ -491,15 +499,29 @@
         <span class="section__subtitle">Get in touch</span>
 
         <div class="contact__container container grid">
-          <form action="" class="contact__form grid">
+          <form
+            action="https://formsubmit.co/reyesedwin2022@gmail.com"
+            method="POST"
+            class="contact__form grid"
+          >
             <div class="contact__inputs grid">
               <div class="contact__content">
                 <label for="" class="contact__label">Name</label>
-                <input type="text" class="contact__input" />
+                <input
+                  type="text"
+                  name="name"
+                  class="contact__input"
+                  required
+                />
               </div>
               <div class="contact__content">
                 <label for="" class="contact__label">Email</label>
-                <input type="email" class="contact__input" />
+                <input
+                  type="email"
+                  name="email"
+                  class="contact__input"
+                  required
+                />
               </div>
             </div>
             <div class="contact__content">
@@ -514,10 +536,23 @@
             </div>
 
             <div>
-              <a href="#" class="button button--flex">
+              <a
+                href="https://reyesedwin.com/thankyou.html"
+                class="button button--flex"
+              >
                 Send Message
                 <i class="uil uil-message button__icon"></i>
               </a>
+              <input
+                type="hidden"
+                name="_next"
+                value="https://reyesedwin.com/thankyou.html"
+              />
+              <input
+                type="hidden"
+                name="_subject"
+                value="Email from reyesedwin.com"
+              />
             </div>
           </form>
         </div>
@@ -540,13 +575,22 @@
           </ul>
 
           <div class="footer__socials">
-            <a href="https://www.linkedin.com/in/edwin-reyes-rodriguez/" class="footer__social" target="_blank"
+            <a
+              href="https://www.linkedin.com/in/edwin-reyes-rodriguez/"
+              class="footer__social"
+              target="_blank"
               ><i class="uil uil-linkedin"></i
             ></a>
-            <a href="https://github.com/reyes-edwin" class="footer__social" target="_blank"
+            <a
+              href="https://github.com/reyes-edwin"
+              class="footer__social"
+              target="_blank"
               ><i class="uil uil-github"></i
             ></a>
-            <a href="https://twitter.com/3dwinReyes" class="footer__social" target="_blank"
+            <a
+              href="https://twitter.com/3dwinReyes"
+              class="footer__social"
+              target="_blank"
               ><i class="uil uil-twitter"></i
             ></a>
           </div>
