@@ -320,11 +320,27 @@ width: 300px;
   display: inline-block;
   background-color: var(--first-color);
   color: #fff;
+  font-size: 1rem;
   padding: 1rem;
   border-radius: 0.5rem;
   font-weight: var(--font-medium);
 }
+button {
+  padding: 1rem;
+  color: #fff;
+  display: inline-block;
+  display: inline-block;
+  background-color: var(--first-color);
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: var(--font-medium);
+  cursor: pointer;
+}
 
+button:hover {
+  background-color: var(--first-color-alt);
+}
 .button:hover {
   background-color: var(--first-color-alt);
 }
