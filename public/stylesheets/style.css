@@ -149,9 +149,18 @@ img {
   font-size: var(--small-font-size);
   margin-bottom: var(--mb-3);
 }
+.section_subtitle {
+  display: block;
+  font-size: var(--small-font-size);
+  margin-left: var(--mb-1-5);
+  margin-right: var(--mb-1-5);
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
 
 .section__title,
-.section__subtitle {
+.section__subtitle,
+.section_subtitle {
   text-align: center;
 }
 /*==================== LAYOUT ====================*/
@@ -291,9 +300,8 @@ img {
   color: var(--first-color-alt);
 }
 
-
 img.home__blob {
-width: 300px;
+  width: 300px;
 }
 
 .home__data {
@@ -449,9 +457,9 @@ button:hover {
 
 .skills__name {
   font-size: var(--small-font-size);
-  font-weight: var(--font-medium);;
-  padding: .25rem .5rem;
-  border-radius: .25rem;
+  font-weight: var(--font-medium);
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
   background-color: var(--first-color);
 }
 
@@ -814,7 +822,8 @@ textarea {
     padding: 6rem 0 2rem;
   }
 
-  .section__subtitle {
+  .section__subtitle,
+  .section_title {
     margin-bottom: 4rem;
   }
 
@@ -840,7 +849,7 @@ textarea {
     display: none;
   }
 
- .nav__list {
+  .nav__list {
     display: flex;
     gap: 2rem;
   }
@@ -865,7 +874,6 @@ textarea {
   h1.home__title {
     font-size: 44px;
   }
-  
 
   .about__container {
     column-gap: 5rem;
@@ -952,8 +960,8 @@ textarea {
   }
 
   .about__buttons {
-      display: flex;
-      justify-content: center;
+    display: flex;
+    justify-content: center;
   }
 
   .projects__content {
