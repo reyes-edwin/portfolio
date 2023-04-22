@@ -9,19 +9,19 @@
 
   /* HSL color mode */
   /* --first-color: hsl(var(--hue-color), 69%, 61%); */
-  --first-color: #000;
+  --first-color: #0c62cb;
   /* --first-color-second: hsl(var(--hue-color), 69%, 61%); */
   --first-color-second: #000;
-  --first-color-alt: hsl(var(--hue-color), 57%, 53%);
-  --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
+  --first-color-alt:#074ca1 ;
+  --first-color-lighter: #074ca1;
   --title-color: hsl(var(--hue-color), 8%, 15%);
   --text-color: hsl(var(--hue-color), 8%, 45%);
   --text-color-light: hsl(var(--hue-color), 8%, 65%);
   --input-color: hsl(var(--hue-color), 70%, 96%);
-  --body-color: hsl(var(--hue-color), 60%, 99%);
+  --body-color: #f9f9f9;
   --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
-  --container-color: #fff;
+  --container-color: #f9f9f9;
 
   /*========== Font and typography ==========*/
   --body-font: "Poppins", sans-serif;
@@ -122,7 +122,6 @@ body {
 
 h1,
 h2,
-h3,
 h4 {
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
@@ -463,6 +462,7 @@ button:hover {
 .skills__name {
   font-size: var(--small-font-size);
   font-weight: var(--font-medium);
+  color: #fff;
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
   background-color: var(--first-color);
