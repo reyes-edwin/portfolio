@@ -1,10 +1,10 @@
 # Portfolio
 This repository contains the code for my personal portfolio website.
 
-#Overview
+# Overview
 My portfolio website showcases my skills, projects, and contact details. It is built using HTML, CSS, and JavaScript.
 
-#Folder Structure
+# Folder Structure
 The repository has the following folder structure:
 
 index.html: The main HTML file that contains the content of the website.
@@ -15,7 +15,7 @@ js/: A folder that contains the JavaScript files for the website.
 script.js: A JavaScript file that contains the code for the smooth scrolling effect.
 img/: A folder that contains the image files used in the website.
 
-#Website Sections
+# Website Sections
 The website has the following sections:
 
 Header: This section includes my name and a navigation menu to different sections of the website.
